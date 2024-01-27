@@ -50,5 +50,5 @@ Feel free to customize the script based on your database and backup requirements
 - Understanding basic scripting concepts for database backup automation.
 
 ## ToDo
-- [ ] Dynamobd
+- [ ] Amazon Dynamodb
 - [ ] Amazon Aurora
