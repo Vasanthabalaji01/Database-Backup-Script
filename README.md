@@ -9,16 +9,18 @@ This project guides you through writing a simple script (Shell/Python) to automa
 
 ## Project Structure
 
-- **`backup_script.sh` (or `backup_script.py`):** The script responsible for initiating the database backup.
+- `backup_script.py` The script responsible for initiating the database backup.
 - **`README.md`:** Project documentation providing instructions and information.
 
 ## Prerequisites
 
 1. **Database Setup:** Ensure you have a database (e.g., PostgreSQL) running on AWS that you want to back up.
 
-2. **Scripting Language:** Choose either Shell or Python, depending on your preference.
+2. **Scripting Language:** Python, depending on your preference if any.
 
 3. **AWS Credentials:** Configure AWS CLI with the necessary credentials to interact with AWS services.
+
+4. **Lambda:** function to backup a db to S3
 
 ## How to Use
 
@@ -29,7 +31,7 @@ This project guides you through writing a simple script (Shell/Python) to automa
    ```
 
 2. **Configure Script:**
-   - Open the `backup_script.sh` (or `backup_script.py`) file.
+   - Open the `backup_script.py`
    - Modify any configuration parameters such as database connection details, backup location, etc.
 
 3. **Run the Script Manually:**
